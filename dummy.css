@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-top:10px dashed green !important;
+    border:10px dashed black;
+    border-radius:0 0 100px 100px;
+}
+p{
+    float:left;
+    border:1px solid red;
+    margin:0 100px; /*the first affect the top and bottom . The second affects the left and right*/
+
+}
