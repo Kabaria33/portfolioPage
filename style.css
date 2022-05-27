@@ -3,12 +3,27 @@
     padding:0;
 }
 body{
-    background-image: url('images/background-image.webp');
+    background-image: url('images/mybackground.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .header img{
     width:130px;
     height:130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:0 -1px;
+}
+.main{
+    background-color: rgba(17, 215, 208, 0.5);
+    color:black;
+    text-align: center;
+    border-radius: 20px;
+    width: 30%;
+    height:60vh;
 }
